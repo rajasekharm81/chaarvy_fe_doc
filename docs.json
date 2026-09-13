@@ -1,72 +1,87 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Chaarvy",
+  "theme": "almond",
+  "favicon": "https://media.brand.dev/c7260861-e8dd-4f9e-b891-a953a69626ec.png",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "primary": "#3c83f6",
+    "light": "#fc5e11",
+    "dark": "#fa4763"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Get Started",
+      "href": "/quickstart"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "dashboard-overview"
+            ]
+          },
+          {
+            "group": "Student Management",
+            "pages": [
+              "students/admissions",
+              "students/admission-form",
+              "students/payments",
+              "students/referrals"
+            ]
+          },
+          {
+            "group": "Academics",
+            "pages": [
+              "academics/programs",
+              "academics/subjects",
+              "academics/timetable",
+              "academics/attendance",
+              "academics/topics-question-bank"
+            ]
+          },
+          {
+            "group": "Faculty",
+            "pages": [
+              "faculty/schedule-planner",
+              "faculty/attendance-log"
+            ]
+          },
+          {
+            "group": "Transportation",
+            "pages": [
+              "transportation/overview",
+              "transportation/live-tracking",
+              "transportation/vehicles-drivers"
+            ]
+          },
+          {
+            "group": "Accounts",
+            "pages": [
+              "accounts/expenses",
+              "accounts/vendors"
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "admin/users-roles",
+              "admin/fees-types",
+              "admin/books-stationary",
+              "admin/holidays",
+              "admin/reports",
+              "admin/college-profile"
+            ]
+          }
+        ]
+      }
     ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
   }
 }

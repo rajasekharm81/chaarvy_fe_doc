@@ -1,0 +1,86 @@
+---
+title: "Collect and Track Student Fee Payments in Chaarvy"
+sidebarTitle: "Payments"
+description: "View successful and pending fee payments, collect outstanding amounts from students, and print payment receipts — all from one payments hub."
+---
+
+The Payments module brings together everything your finance and administrative staff need to manage student fee collection. You can review a complete history of successful transactions, identify students with outstanding balances, accept payments at the counter, and generate official receipts — without switching between separate tools.
+
+## Viewing Payment History
+
+Navigate to **Student Management → Payments** to access the payments hub. Two lists give you a full picture of where every student account stands.
+
+### Successful Payments
+
+The **Student Payments List** shows all completed fee transactions. Each row displays the student's name, the amount paid, the payment date, and the transaction reference. Use the search bar and date filters to locate a specific payment quickly.
+
+Select any row to open the **Payment Details** view, which shows a full breakdown of what was paid, when, and through which payment method.
+
+### Pending Payments
+
+The **Pending Payments** list shows students who have an outstanding balance — either because a fee is due or a previous payment was not completed. Entries here are the starting point for collecting a payment in person.
+
+### Viewing Payment Details and Printing Receipts
+
+From either list, open a transaction record to view the complete payment details. Once you are on the detail view, click **Print Receipt** to generate a formatted receipt you can hand to the student or file for your records.
+
+---
+
+## Collecting Payments
+
+Use the following steps to accept a fee payment from a student who appears on the pending payments list.
+
+<Steps>
+  <Step title="Go to Pending Payments">
+    Navigate to **Student Management → Payments → Pending Payments**. This list shows all students with amounts currently due.
+  </Step>
+
+  <Step title="Search for the Student">
+    Use the search bar to find the student by name or enrollment number. The list filters in real time as you type.
+  </Step>
+
+  <Step title="Review the Fee Breakdown">
+    Select the student's row to open their pending payment record. You will see a detailed breakdown of all outstanding amounts — course fees, book fees, add-on course fees, and any other applicable charges.
+
+    Confirm the total with the student before proceeding.
+  </Step>
+
+  <Step title="Record the Payment">
+    Click **Accept Payment** to open the payment entry panel. Enter the following details:
+
+    - **Amount Received** — the amount the student is paying now. This can be the full balance or a partial instalment if your institution allows instalments.
+    - **Payment Mode** — select the method used (cash, bank transfer, online payment, etc.).
+    - **Transaction Reference** — enter a cheque number, UTR, or any reference number associated with the transaction.
+
+    Click **Confirm** to record the payment. The transaction is saved immediately and the student's balance is updated.
+  </Step>
+
+  <Step title="Print the Receipt">
+    After the payment is recorded, click **Print Receipt** to generate the official receipt. Hand a copy to the student and retain one for your records if needed.
+  </Step>
+</Steps>
+
+<Note>
+  Accepting a payment requires specific permissions. Make sure your role includes:
+
+  - **collect_payment:search_pending_payment** — to search for and view pending balances
+  - **collect_payment:accept_payment** — to record a new payment transaction
+  - **collect_payment:print_receipt** — to print a receipt after payment
+
+  Contact your system administrator if any of these permissions are missing from your account.
+</Note>
+
+---
+
+## Payment Receipts
+
+A payment receipt is automatically available as soon as a transaction is recorded. Receipts can be printed from two places:
+
+- **During payment collection** — click **Print Receipt** immediately after confirming a payment.
+- **From payment history** — open any past transaction from the Student Payments List and click **Print Receipt** from the detail view.
+
+Each receipt includes the student's name and enrollment number, the program they are enrolled in, a line-by-line fee breakdown, the amount paid, the payment mode and reference number, and the date and time of the transaction.
+
+<Tip>
+  If a student requests a duplicate receipt for a past payment, locate the original transaction in the **Student Payments List**, open the detail view, and use **Print Receipt** to reprint it at any time.
+</Tip>

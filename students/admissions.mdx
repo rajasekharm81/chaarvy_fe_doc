@@ -1,0 +1,80 @@
+---
+title: "Manage Student Admissions and Enrollment in Chaarvy"
+sidebarTitle: "Admissions"
+description: "View, manage, and track all student admissions from one place — including active enrollments, inactive records, and status updates."
+---
+
+The Admissions module gives your institution a centralised view of every student enrollment. From here you can browse active and inactive admissions, search for specific students, update enrollment statuses, and print official admission letters — all without leaving the platform.
+
+## Viewing the Admissions List
+
+Navigate to **Student Management → Admissions** to open the admissions list. The page is divided into two tabs so you can focus on the records most relevant to you.
+
+### Active and Inactive Tabs
+
+- **Active** — displays all students who are currently enrolled and attending your institution.
+- **Inactive** — displays students whose admissions have been deactivated or dropped. Use this tab to review historical records or reverse a status change if needed.
+
+Switch between tabs at any time; both views share the same search and filter controls.
+
+### Filters and Search
+
+Use the search bar at the top of the list to look up a student by name or enrollment number. Additional filters let you narrow results by:
+
+- **Program** — the degree or diploma the student is enrolled in
+- **Segment** — the academic segment or year group
+- **Medium** — the language medium of instruction
+- **Section** — the class section assigned to the student
+
+Apply one or more filters together to pinpoint the exact set of records you need.
+
+### Viewing Admission Details
+
+Select any row in the list to open the full admission record. The detail view shows the student's personal information, program details, address, add-on courses, and fee summary all in one place.
+
+---
+
+## Admission Statuses
+
+Every admission record carries a status that reflects the student's current relationship with your institution.
+
+| Status | Meaning |
+|--------|---------|
+| **Active** | The student is currently enrolled and attending. |
+| **Inactive** | The admission has been deactivated — the student is no longer attending but the record is retained. |
+| **Dropped** | The student formally withdrew or was removed from the program. Dropped admissions appear in the inactive tab. |
+
+Keeping statuses accurate ensures your reporting, fee calculations, and headcount figures stay reliable.
+
+---
+
+## Available Actions
+
+Depending on your permissions, you can perform the following actions from the admissions list or the individual admission detail view.
+
+<CardGroup cols={3}>
+  <Card title="Print Admission Letter" icon="print">
+    Generate and print the official admission letter for a student to share with them or retain for institutional records.
+  </Card>
+  <Card title="Update Admission Status" icon="arrow-right-arrow-left">
+    Change a student's status between active and inactive to reflect enrollment changes such as re-admission or temporary suspension.
+  </Card>
+  <Card title="Drop Admission" icon="user-minus">
+    Mark an admission as dropped when a student withdraws or is removed from a program. This moves the record to the inactive tab.
+  </Card>
+</CardGroup>
+
+To perform an action, open the admission record and select the corresponding option from the actions menu at the top of the detail view.
+
+---
+
+<Note>
+  The actions available to you depend on the permissions assigned to your role. Your administrator controls access to the following:
+
+  - **admissions:list:view:active** — view the active admissions tab
+  - **admissions:list:view:inactive** — view the inactive admissions tab
+  - **admissions:update_admission_status** — change a student's enrollment status
+  - **admissions:print_admission_letter** — generate and print an admission letter
+
+  Contact your institution's system administrator if you need access to any of these actions.
+</Note>
