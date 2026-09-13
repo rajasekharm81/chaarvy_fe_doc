@@ -1,7 +1,7 @@
 ---
-title: "Manage Books and Stationery Inventory in Chaarvy"
+title: "Manage Books and Stationery Inventory in Chaarvy Admin"
 sidebarTitle: "Books & Stationery"
-description: "Add and categorise books and stationery items, track inventory status, and link materials to programs for accurate admission fee breakdowns."
+description: "Add and manage books and stationery items, track available quantities and prices, and link materials to programs for accurate admission fee breakdowns."
 ---
 
 Chaarvy's Books & Stationery module lets you maintain a centralised inventory of all physical materials your institution provides to students — from textbooks and reference books to notebooks and other stationery. Keeping this list up to date ensures accurate fee breakdowns and smooth resource planning.
@@ -11,56 +11,37 @@ Chaarvy's Books & Stationery module lets you maintain a centralised inventory of
 Navigate to **Admin → Books & Stationery** to view and manage your inventory.
 
 <Steps>
-  <Step title="Open the Add Item form">
-    Click **Add Item** to open the item creation form.
+  <Step title="Open the Add Books form">
+    Click **Add Books** to open the item creation form.
   </Step>
   <Step title="Enter item details">
     Fill in the required information:
-    - **Item Name** — the full name of the book or stationery item (for example, *Engineering Mathematics Vol. 1* or *A4 Notebook*).
-    - **Item Type** — select the appropriate category from the available item types (see [Item Types](#item-types) below).
-    - Any additional details relevant to the item, such as edition or specification.
+    - **Book Name** — the full name of the book or stationery item (for example, *Engineering Mathematics Vol. 1* or *A4 Notebook*).
+    - **Available Quantity** — the current stock count for this item.
+    - **Price** — the unit price charged to students.
+    - **Program association** — choose whether the item is a **common** item (available across all programs) or a **specific** item linked to a particular program, segment, and medium.
   </Step>
   <Step title="Save the item">
-    Click **Save** to add the item to your inventory. It will appear as active immediately.
+    Click **Save** to add the item to your inventory. It will appear in the list immediately and be available for use in program fee configurations.
   </Step>
 </Steps>
 
-## Item Types
+## Browsing and Filtering Inventory
 
-Item types let you group inventory into logical categories, making it easier to browse and manage large lists.
-
-<Steps>
-  <Step title="Understand item type categories">
-    Common item types you might configure include:
-    - Textbook
-    - Reference Book
-    - Lab Manual
-    - Stationery
-    - Kit / Equipment
-
-    Categories are flexible — create types that reflect how your institution classifies its materials.
-  </Step>
-  <Step title="Manage item type categories">
-    Use the **Item Types** form to add new categories or update existing ones. Changes to item types are reflected across all items already assigned to that type.
-  </Step>
-</Steps>
-
-## Inventory Overview
-
-The inventory list gives you a snapshot of all items and their current status.
+The inventory list gives you a snapshot of all items and their current associations.
 
 <Steps>
-  <Step title="View active and inactive items">
-    Switch between the **Active** and **Inactive** tabs to see all items in your inventory, regardless of status. Inactive items are preserved for record-keeping but do not appear in active program fee configurations.
+  <Step title="Search and filter items">
+    Use the search bar and filter options — including program, segment, and medium — to narrow down the list and find specific items quickly.
+  </Step>
+  <Step title="Understand item associations">
+    Each row in the list shows the book name along with its association: items marked **Common book** are shared across all programs, while other items display the specific program, segment, and medium they belong to.
   </Step>
   <Step title="Edit item details">
-    Click the edit icon next to any item to update its name, type, or other details. Use this to correct errors or reflect changes such as a new edition of a textbook.
-  </Step>
-  <Step title="Activate or deactivate items">
-    Toggle an item's status to remove it from active use without deleting it. Reactivate it whenever it becomes relevant again.
+    Click the edit icon next to any item to update its name, quantity, price, or program association. Use this to correct errors or reflect changes such as a new edition of a textbook or updated stock levels.
   </Step>
 </Steps>
 
 <Tip>
-  You can link books and stationery items to specific academic programs so they are automatically included in the admission fee breakdown presented to students. Configure these links in the Program settings under the Academics section.
+  You can link books and stationery items to specific academic programs so they are automatically included in the admission fee breakdown presented to students. Configure these links when adding or editing an item, or manage them in the Program settings under the Academics section.
 </Tip>

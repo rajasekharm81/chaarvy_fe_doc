@@ -1,7 +1,7 @@
 ---
-title: "Track and Manage Institution Expenses in Chaarvy"
+title: "Track and Manage Your Institution Expenses in Chaarvy"
 sidebarTitle: "Expenses"
-description: "Record, categorise, and monitor every institutional expense — from petty cash to major purchases — with full receipt attachment support and payment tracking."
+description: "Record, categorise, and monitor institutional expenses — from petty cash to major purchases — with receipt attachment support and payment tracking."
 ---
 
 The Expenses module gives your accounts team a single place to record every outgoing payment made by the institution. Whether you're logging a utility bill, a vendor payment, or a staff reimbursement, Chaarvy keeps an organised, searchable history of all expenses alongside their supporting documents.
@@ -31,26 +31,32 @@ From the list view you can:
   <Step title="Open the Add Expense form">
     From the **Accounts > Expenses** page, click the **Add Expense** button in the top-right corner. A form panel will open.
   </Step>
-  <Step title="Select an expense category">
-    Choose the appropriate **Expense Category** from the dropdown. Categories help you group and report on similar types of spending. If the category you need does not exist yet, see [Expense Categories and Payment Modes](#expense-categories-and-payment-modes) below.
+  <Step title="Enter a description and date">
+    Fill in the **Description** field to briefly summarise what the expense is for. Then select the **Date** the expense was incurred.
   </Step>
-  <Step title="Enter the amount, date, and payment mode">
-    Fill in the **Amount** and select the **Date** the expense was incurred. Then choose the **Payment Mode** (for example, cash, bank transfer, or cheque) that reflects how the payment was made.
+  <Step title="Select who paid and the payee">
+    Choose the staff member who made the payment from the **Paid By** dropdown. Then select the **Beneficiary Type** that best describes who received the payment, followed by the specific **Payee** within that type. These fields are used for reporting and audit purposes.
   </Step>
-  <Step title="Select a beneficiary type">
-    Pick the **Beneficiary Type** that best describes who received the payment — such as a vendor, staff member, or utility provider. This field is used for reporting and audit purposes.
+  <Step title="Select an expense category and payment mode">
+    Choose the appropriate **Expense Category** from the dropdown, then select the **Payment Mode** (for example, cash, bank transfer, or cheque) that reflects how the payment was made. If the category or payment mode you need does not exist yet, type the new name directly in the dropdown and use the inline **Add** option to create it on the spot — no separate settings page is needed.
+  </Step>
+  <Step title="Add a reference ID and notes">
+    Enter a **Reference ID** (such as a cheque number or transaction reference) for traceability, and add any additional **Notes** relevant to the expense.
+  </Step>
+  <Step title="Enter the amount">
+    Enter the **Amount** paid.
   </Step>
   <Step title="Attach receipts or invoices">
-    Click **Upload Files** to attach supporting documents such as receipts, invoices, or purchase orders. You can attach multiple files in common formats (PDF, JPG, PNG). All attachments are stored securely and can be retrieved at any time from the expense record.
+    Click **Select Files** to attach supporting documents such as receipts, invoices, or purchase orders. You can attach multiple files in common formats (PDF, JPG, PNG). All attachments are stored securely and can be retrieved at any time from the expense record.
   </Step>
   <Step title="Save the expense">
-    Review the details and click **Save**. The new expense immediately appears in the expenses list and contributes to the figures shown on the Accounts Dashboard.
+    Review the details and click **Add Expense**. The new expense immediately appears in the expenses list and contributes to the figures shown on the Accounts Dashboard.
   </Step>
 </Steps>
 
 ## Editing an Expense
 
-To correct or update an existing record, locate the expense in the list and click the **Edit** (pencil) icon. The same form used for adding an expense reopens with the existing values pre-filled. Make your changes and click **Save** to apply them.
+To correct or update an existing record, locate the expense in the list and click the **Edit** (pencil) icon. The same form used for adding an expense reopens with the existing values pre-filled. Make your changes and click **Update Expense** to apply them. You can also add or remove file attachments at this point.
 
 <Warning>
   Editing a saved expense changes the figures reflected on the Accounts Dashboard. Always double-check the amount and date before saving an update.
@@ -58,22 +64,12 @@ To correct or update an existing record, locate the expense in the list and clic
 
 ## Expense Categories and Payment Modes
 
-Keeping your categories and payment modes up to date ensures that every new expense can be classified accurately.
+Chaarvy lets you manage expense categories, payment modes, and beneficiary types without leaving the expense form. When filling in any of these dropdown fields, type a name that does not yet exist and select the inline **Add** option that appears — the new entry is saved immediately and becomes available institution-wide for future expenses.
 
-### Creating an Expense Category
-
-1. On the **Accounts > Expenses** page, open the **Settings** or **Manage Categories** option (accessible from the page actions menu).
-2. Click **Add Category**, enter a descriptive name (for example, *Office Supplies*, *Maintenance*, or *Utilities*), and save.
-3. The new category is immediately available in the expense form dropdown.
-
-### Adding a Payment Mode
-
-1. In the same settings area, switch to the **Payment Modes** tab.
-2. Click **Add Payment Mode**, enter the mode name (for example, *NEFT*, *Cash*, or *Credit Card*), and save.
-3. The new mode appears in the **Payment Mode** dropdown when logging an expense.
+You can also rename any existing category or payment mode by clicking the **Edit** option next to it in the same dropdown, keeping your reference data tidy as the institution's needs change.
 
 <Info>
-  You can also add a new **Beneficiary Type** from the settings area. Beneficiary types work the same way — enter a name that describes the recipient category, save, and it becomes available institution-wide.
+  Beneficiary types work the same way — you can add or rename them inline from the **Beneficiary Type** dropdown while recording an expense.
 </Info>
 
 ## Permissions

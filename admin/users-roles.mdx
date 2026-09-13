@@ -1,7 +1,7 @@
 ---
-title: "Manage Users, Roles, and Permissions in Chaarvy"
+title: "Manage Users, Roles, and Permissions in Chaarvy Admin"
 sidebarTitle: "Users & Roles"
-description: "Create and manage user accounts, define roles with default permissions, and override individual user access across your institution."
+description: "Create user accounts, assign roles with predefined permissions, and fine-tune access for individual staff members across your institution."
 ---
 
 Chaarvy gives you full control over who can access your platform and what they can do. You can create user accounts, assign roles with predefined permissions, and fine-tune access for individual users — all from the Admin panel.
@@ -12,7 +12,7 @@ Navigate to **Admin → Users** to view and manage all user accounts in your ins
 
 <Steps>
   <Step title="Add a new user">
-    Click **Add User** to open the user creation form. Enter the user's full name, email address, and assign them a role. Once saved, the user receives an invitation to set up their account.
+    Click **Add User** to open the user creation form. Enter the user's full name, username, mobile number, and email address, then assign them a role. Click **Create User** to save the account.
   </Step>
   <Step title="Search and filter users">
     Use the search bar to find users by name. You can also filter the list by **status** (active or inactive) or by **role** to quickly locate the right accounts.
@@ -28,13 +28,13 @@ Each user has a profile page where you can view and update their personal inform
 
 <Steps>
   <Step title="View and edit user details">
-    Click on any user's name to open their profile. From here you can update their personal details such as name and contact information.
+    Click on any user's name to open their profile. From here you can update their personal details such as name, username, mobile number, and email address.
   </Step>
   <Step title="Upload a profile avatar">
-    On the profile page, click the avatar area to upload or replace the user's profile picture.
+    On the profile page, click the avatar area to select and upload a profile picture. Once you've chosen an image, click the save icon to apply it.
   </Step>
   <Step title="Manage address information">
-    Scroll to the **Address** section of the profile to add or update the user's residential address details.
+    Select the **Address** tab on the user's profile to add or update the user's residential address details.
   </Step>
 </Steps>
 
@@ -73,5 +73,5 @@ Sometimes a specific user needs slightly more or less access than their role pro
 </Steps>
 
 <Note>
-  Managing users and roles requires specific permissions. To add users, you need `users:add_user`. To view and update user permissions, you need `users:user_permissions:view` and `users:user_permissions:update`. For roles, you need `roles:create_role` to create new roles and `roles:update:role_default_permissions` to modify their default permissions. Contact your system administrator if you don't have the required access.
+  Managing users and roles requires specific permissions. To add users, you need the `users:add_user` permission. To view and update user permissions, you need `users:user_permissions:view` and `users:user_permissions:update`. For roles, you need `roles:create_role` to create new roles and `roles:update:role_default_permissions` to modify their default permissions. These are permission names within Chaarvy's access control system — contact your system administrator if you don't have the required access.
 </Note>
